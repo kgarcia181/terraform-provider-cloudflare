@@ -1,5 +1,49 @@
 # Changelog
 
+## 5.7.0 (2025-07-07)
+
+Full Changelog: [v5.6.0...v5.7.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.6.0...v5.7.0)
+
+### Features
+
+* **api:** Add 'zero_trust_tunnel_warp_connector' Terraform resource ([204d752](https://github.com/cloudflare/terraform-provider-cloudflare/commit/204d7529af116f0d3104da3de798142e8d75917d))
+* **api:** Add DELETE and POST routes for Magic Connector ([b3c8c0a](https://github.com/cloudflare/terraform-provider-cloudflare/commit/b3c8c0a2ec82ae06423277f1f23376d61799d0e1))
+* **api:** api update ([7a1200e](https://github.com/cloudflare/terraform-provider-cloudflare/commit/7a1200ebe55933f6dcadb0c198cfdf3250c2b75d))
+* **api:** api update ([97ea6d6](https://github.com/cloudflare/terraform-provider-cloudflare/commit/97ea6d6100946c3c5581e256b71ddc2403613677))
+* **api:** api update ([75e1515](https://github.com/cloudflare/terraform-provider-cloudflare/commit/75e151546d902d622e91ce7a2713c5efa89b92b9))
+* **api:** api update ([223c0ff](https://github.com/cloudflare/terraform-provider-cloudflare/commit/223c0ff085394facb2b22ff958429c2571601a75))
+* **api:** api update ([7e9304b](https://github.com/cloudflare/terraform-provider-cloudflare/commit/7e9304b15fb637574a72729b76596cb8e536070e))
+* **api:** api update ([b98281d](https://github.com/cloudflare/terraform-provider-cloudflare/commit/b98281d9d84966e39f0b3b1c96d7d0d652c676f5))
+* **api:** api update ([d94fb1f](https://github.com/cloudflare/terraform-provider-cloudflare/commit/d94fb1f2b8959a0893066fdb4ff28e624d98224e))
+* **api:** api update ([7861f45](https://github.com/cloudflare/terraform-provider-cloudflare/commit/7861f45da923902abad48efaa1a02ec3dab5989e))
+* **api:** api update ([534cc05](https://github.com/cloudflare/terraform-provider-cloudflare/commit/534cc05eed010839f29d05c5c7e7df843ebb4938))
+* **api:** api update ([39676a0](https://github.com/cloudflare/terraform-provider-cloudflare/commit/39676a0de28e699286354db0cae59ba083860ebc))
+* **api:** api update ([c449ded](https://github.com/cloudflare/terraform-provider-cloudflare/commit/c449dedccade8be6fb9c8b1ac02e293bb9cae709))
+* **api:** api update ([de3965a](https://github.com/cloudflare/terraform-provider-cloudflare/commit/de3965a07b17feda13b99b91e2330e22803288d7))
+* **api:** api update ([ab0e41a](https://github.com/cloudflare/terraform-provider-cloudflare/commit/ab0e41a010524202c0efb3558d369b4c666cb744))
+* **api:** api update ([c8168f2](https://github.com/cloudflare/terraform-provider-cloudflare/commit/c8168f2009890904f7aca4ac189a632d379885a9))
+* **api:** api update ([371b58e](https://github.com/cloudflare/terraform-provider-cloudflare/commit/371b58e01eba0b306b193697f5d99660ff7e064e))
+* **api:** api update ([621b0c7](https://github.com/cloudflare/terraform-provider-cloudflare/commit/621b0c7274ffe34ab95be296dbb2e04585f37dd2))
+* **zero_trust_dlp:** Added individual resources and new routes ([2b7185f](https://github.com/cloudflare/terraform-provider-cloudflare/commit/2b7185fce3cf74d1a8dfedc459dcc2fc2fa351cb))
+
+
+### Bug Fixes
+
+* **ci:** release-doctor — report correct token name ([87e54a5](https://github.com/cloudflare/terraform-provider-cloudflare/commit/87e54a55bf0e7cde2bc1ee44960d58486a357ebc))
+* **logpull_retention:** Fix Terraform ID property ([de3811f](https://github.com/cloudflare/terraform-provider-cloudflare/commit/de3811f0f618118051b3a473c2b1042b95321c65))
+* null nested attribute decoding ([5ba7d5b](https://github.com/cloudflare/terraform-provider-cloudflare/commit/5ba7d5bf759b16d487c3279c6d4df825092b253a))
+* **terraform:** strip leading/trailing underscores from attribute names ([e00ca4b](https://github.com/cloudflare/terraform-provider-cloudflare/commit/e00ca4b1d504633efcb7c6d47e8b8664b149b5f2))
+* **zone_subscription:** Fix incorrect path identifier on Update and Read ([e00223d](https://github.com/cloudflare/terraform-provider-cloudflare/commit/e00223d0a3d7db40fe65c7ef73111059993c03e4))
+
+
+### Chores
+
+* **ci:** only run for pushes and fork pull requests ([df566b9](https://github.com/cloudflare/terraform-provider-cloudflare/commit/df566b932510480199bd777106fdc97a727c7450))
+* **internal:** codegen related update ([f29c24a](https://github.com/cloudflare/terraform-provider-cloudflare/commit/f29c24aa73da1644f611a2b58d266c930f938f93))
+* update docs ([884dcd8](https://github.com/cloudflare/terraform-provider-cloudflare/commit/884dcd816133381abf6c4edf309f56e36c80b02a))
+* update docs ([cd30cb5](https://github.com/cloudflare/terraform-provider-cloudflare/commit/cd30cb5f311c9941bf58b9c901c8317cd4776084))
+* **zone_subscription:** Fix ID property configuration ([b762cf2](https://github.com/cloudflare/terraform-provider-cloudflare/commit/b762cf2484097dbe26d01b9a7dff99d90a1bb4d2))
+
 ## 5.6.0 (2025-06-17)
 
 Full Changelog: [v5.5.0...v5.6.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.5.0...v5.6.0)
