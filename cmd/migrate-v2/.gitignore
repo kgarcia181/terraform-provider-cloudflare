@@ -1,0 +1,13 @@
+# Binary
+migrate-v2
+
+# Test artifacts
+*.tfstate.backup
+*.tf.backup
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

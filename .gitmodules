@@ -1,0 +1,8 @@
+[submodule "cmd/migrate-v2/external/provider-v4"]
+	path = cmd/migrate-v2/external/provider-v4
+	url = https://github.com/cloudflare/terraform-provider-cloudflare.git
+	branch = v4
+[submodule "cmd/migrate-v2/external/provider-v5"]
+	path = cmd/migrate-v2/external/provider-v5
+	url = https://github.com/cloudflare/terraform-provider-cloudflare.git
+	branch = next
